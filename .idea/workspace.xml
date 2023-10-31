@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a425196-59ae-4626-9125-78e2cf1d6f03" name="Changes" comment="first version of thread">
+    <list default="true" id="4a425196-59ae-4626-9125-78e2cf1d6f03" name="Changes" comment="another version with 4 thread">
       <change beforePath="$PROJECT_DIR$/src/test/java/MyThreadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MyThreadTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +85,21 @@
       <option name="project" value="LOCAL" />
       <updated>1698781805003</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="second version with 4 thread">
+      <created>1698781955800</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1698781955800</updated>
+    </task>
+    <task id="LOCAL-00003" summary="another version with 4 thread">
+      <created>1698782143735</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1698782143735</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -101,6 +115,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first version of thread" />
-    <option name="LAST_COMMIT_MESSAGE" value="first version of thread" />
+    <MESSAGE value="second version with 4 thread" />
+    <MESSAGE value="another version with 4 thread" />
+    <option name="LAST_COMMIT_MESSAGE" value="another version with 4 thread" />
   </component>
 </project>
