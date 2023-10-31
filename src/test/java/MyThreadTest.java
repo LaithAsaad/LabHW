@@ -30,8 +30,9 @@ public class MyThreadTest extends TestCase {
     {
         long start = System.currentTimeMillis();
         int start_number = 1;
-        int end_number = 100000000;
+        int end_number = 10000000;
         List<MyThread> threadList = new ArrayList<MyThread>();
+        List<Integer> primes = new ArrayList<>();
         for(int i=0; i<10; i++)
         {
             MyThread thread = new MyThread("thread",(int)(((double)i/10)*end_number), (int)(((double)(i+1)/10)*end_number));
@@ -42,6 +43,11 @@ public class MyThreadTest extends TestCase {
         {
             try {
                 thread.join();
+                for (int prime : thread.getPrimes())
+                {
+                    primes.add(prime);
+                }
+
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }
