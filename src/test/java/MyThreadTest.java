@@ -30,7 +30,7 @@ public class MyThreadTest extends TestCase {
     {
         long start = System.currentTimeMillis();
         int start_number = 1;
-        int end_number = 10000000;
+        int end_number = 100000000;
         List<MyThread> threadList = new ArrayList<MyThread>();
         for(int i=0; i<4; i++)
         {
